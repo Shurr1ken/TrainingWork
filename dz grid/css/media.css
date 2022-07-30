@@ -1,0 +1,158 @@
+@media (max-width: 1050px) {
+  .container {
+    max-width: 982px;
+  }
+  .hero__container {
+    padding: 131px 0 135px 0;
+    background-position: right top 40px;
+    background-size: 55%;
+  }
+}
+
+@media (max-width: 945px) {
+  .container {
+    max-width: 855px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    max-width: 660px;
+    padding-right: 39px;
+    padding-left: 39px;
+  }
+  .header__logo,
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  .header__logo {
+    margin-bottom: 31px;
+  }
+  .header__nav-list {
+    gap: 40px;
+  }
+  .hero__container {
+    background-image: none;
+  }
+  .about {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 59px;
+    padding-top: 80px;
+  }
+  .about__info {
+    padding-left: 252px;
+    margin-bottom: 23px;
+    background-size: 211px 187px;
+    background-position: left 12px top 23px;
+  }
+  .about__benefits-text {
+    background-position: top left 12px;
+    padding: 91px 30px 0 12px;
+  }
+  .about__benefits-text3 {
+    background-position: top left 17px;
+  }
+  .courses__item {
+    background-size: auto;
+    min-height: 556px;
+    padding: 210px 30px 30px 28px;
+  }
+  .courses__link {
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 710px) {
+  .container {
+    padding-right: 33px;
+    padding-left: 33px;
+  }
+  .courses__item {
+    min-height: 653px;
+    padding: 180px 30px 30px 28px;
+  }
+  .courses__item-title {
+    line-height: 23px;
+  }
+  .courses__link {
+    margin-top: 180px;
+    padding: 20px 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .header__content {
+    padding-top: 15px;
+    padding-bottom: 11px;
+  }
+  .header__logo {
+    margin-bottom: 0;
+  }
+  .header__nav {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    padding-bottom: 10px;
+  }
+  .header__logo{
+    justify-content: start;
+    padding-left: 10px;
+  }
+  .about__info {
+    padding-left: 16px;
+    background-image: none;
+  }
+  .about__benefits-text {
+    padding: 22px 30px 22px 110px;
+    background-position: left center;
+  }
+
+  .about__benefits-text:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  .courses__block:nth-child(1),
+  .courses__block:nth-child(3) {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+.hero__title {
+  font-size: 30px;
+  line-height: 30px;
+  }
+  .hero__descr {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .about__title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .teachers__title {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .teachers__content-item:nth-child(1) {
+    margin-bottom: 23px;
+  }
+}
